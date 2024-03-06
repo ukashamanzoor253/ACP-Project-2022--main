@@ -1,0 +1,160 @@
+Manage Record	Search Record 	Help	  
+
+
+Add New Patient  Search Patient Record  Add New Doctor    Print
+
+
+
+Manage Record Menu bar should have menu items like Add new Patient,
+ Add New Doctor, Add New Disease, Delete Patient Record and Update Record.
+ Update Record should have sub menu Update Patient and update Doctor Record. 
+Search Record menu should have menu items like search Patient by Name, Search Patient by ID, Search Patient by age,
+ Search Patient by Disease, Search Patient by Doctor, 
+Search Doctor by Name and Search Doctor by Disease Specialization. Help menu should have item about us and change password.
+
+
+
+
+Manage Record= 
+1- Add new Patient
+2- Add New Doctor
+3- Add New Disease
+4- Delete Patient Record
+5- Update Record.
+	- Update Patient
+	- update Doctor Record
+
+
+
+Search Record= 
+1- search Patient by name
+2- Search Patient by ID
+3- search Patient by age
+4- Search Patient by Disease
+5- Search Patient by Doctor
+6- Search Doctor by Name
+7- Search Doctor by Disease Specialization
+
+
+
+Help = 
+1- about us
+2- change password.
+
+
+
+
+
+Guest GUI should have Menu bar having menus Search record, print and Help menu. 
+Search Record menu should have menu items like search by Name, Search by ID and Search by age. 
+Help menu should have item about us and change password. 
+Tool bar should have icons for Search Record and Print.
+
+
+
+SearchRecord  print    Help 
+
+icons  for Search       Print.
+
+Search record = 
+1- search by Name
+2- Search by ID 
+3- and Search by age
+
+Help =
+1- about us and 
+2- change password. 
+
+
+
+---------------
+Upon Selecting Add New Disease, a form should be opened having two fields
+ Disease Name and Disease Description and Two Buttons Save and Cancel.
+Upon Clicking on Save Information Must be Saved in Table Disease having attributes Disease_ID,
+Disease Name,Disease Description. 
+Disease ID must be autoincrement and primary key.
+Upon Clicking Cancel no information should be saved and form should be disposed.
+
+Add New Disease= 
+
+Disease Name	 and  
+
+Save		 and Cancel.
+
+
+
+----------
+
+Upon Add New Doctor, a form should be opened having Text Field for Doctor Name, 
+ComboBox having Disease Names as Field of Specialization and two buttons save and cancel.
+ Upon Pressing Save Information must be saved into Doctor Table having attributes Doctor_ID,Disease_ID,Doctor_Name.
+Doctor_ID should be primary key while Disease_ID should be foreign key.Doctor_ID must be autoincremented.
+Upon Pressing Cancel Button No Information should be saved and form should be disposed.
+
+ Doctor Name text filds
+ComboBox having Disease Names 
+Field of Specialization 
+save and cancel
+
+--------
+
+Upon selecting Add New Patient from Menu bar window should have items on the form to enter 
+Patient information.
+Patient ID (TextField Editable(FALSE))
+Patient Name (TextField)
+Father Name (TextField)
+Sex(Male of Female RadioButton)
+Date of Birth (JCalender Chooser)
+Doctor  Name(ComboBox)
+Disease History (TextArea)
+Prescription(TextArea)
+Two Buttons Save and Cancel
+Upon Pressing Save Button Information must be saved into Patient 
+Table having attributes Patient_ID, Patient_Name, PF_Name, Sex, DOB, Doctor_ID,Disease_History,
+Prescription.Patient_ID must be autoIncrement and Primary key while Doctor_ID must be Foreign key.
+ Upon Pressing Cancel No Information should be saved and form should be disposed. 
+
+
+
+
+Patient Name (TextField)
+Father Name (TextField)
+Sex(Male of Female RadioButton)
+Date of Birth (JCalender Chooser)
+Doctor  Name(ComboBox)
+Disease History (TextArea)
+Prescription(TextArea)
+Two Buttons Save and Cancel
+
+
+
+
+///////
+
+
+
+
+
+
+When user selects Update Patient record then in the parent window user
+ should be asked to select one of the Patient id from selection list 
+and then search record from the Patient Table on the basis of selected 
+id and then bring all the info into the form (All Editable false except
+ Patient History and Prescription).
+
+
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
